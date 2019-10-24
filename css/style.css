@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --color-type-nm: #05683E;
+    --color-type-am: #87072E;
+    --color-type-aem: #620652;
+    --color-type-md: #975A08;
+    --color-type-h: #0C335B;
+    --color-type-ng: #191361;
+    --color-type-tm: #340D5E;
+    --color-type-ld: #06574E;
+    --color-type-m: #973108;
+    --color-type-ad: #8B4009;
+}
+
+/**Section 1*/
+section#upper-section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+div#element-display{
+    height: 20rem;
+    width: 20rem;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#element-number{
+    font-size: 2.5rem;
+    align-self: flex-start;
+    padding-left: 2rem;
+    font-weight: 800;
+}
+
+div#element-symbol{
+    font-size: 5rem;
+    font-weight: bold;
+    align-self: flex-start;
+    padding-left: 2rem;
+}
+
+div#element-name{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+div#element-mass{
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+/**Section 2*/
+section#lower-section{
+    height: 50vh;
+    border-top: #999 dashed 1px;
+    overflow: scroll;
+}
+
+section#lower-section ul{
+    padding-top: 6rem;
+    list-style: none;
+    text-align: center;
+}
+
+section#lower-section ul li{
+    font-size: 2rem;
+    padding: .5rem 0;
+    cursor: default;
+}
+
+
+/**Family specific*/
+/* li.type-nm{ text-shadow: var(--color-type-nm) .05rem .05rem; }
+li.type-am{ text-shadow: var(--color-type-am) .05rem .05rem; }
+li.type-aem{ text-shadow: var(--color-type-aem) .05rem .05rem; }
+li.type-md{ text-shadow: var(--color-type-md) .05rem .05rem; }
+li.type-h{ text-shadow: var(--color-type-h) .05rem .05rem; }
+li.type-ng{ text-shadow: var(--color-type-ng) .05rem .05rem; }
+li.type-tm{ text-shadow: var(--color-type-tm) .05rem .05rem; }
+li.type-ld{ text-shadow: var(--color-type-ld) .05rem .05rem; }
+li.type-m{ text-shadow: var(--color-type-m) .05rem .05rem; }
+li.type-ad{ text-shadow: var(--color-type-ad) .05rem .05rem; } */
+
+div#element-display.type-nm{ background-image: linear-gradient(120deg,#fdfbfb 0%, #ebedee 75%, var(--color-type-nm) 100%); }
+div#element-display.type-am{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-am) 100%); }
+div#element-display.type-aem{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-aem) 100%); }
+div#element-display.type-md{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-md) 100%); }
+div#element-display.type-h{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-h) 100%); }
+div#element-display.type-ng{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-ng) 100%); }
+div#element-display.type-tm{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-tm) 100%); }
+div#element-display.type-ld{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-ld) 100%); }
+div#element-display.type-m{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-m) 100%); }
+div#element-display.type-ad{ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 75%, var(--color-type-ad) 100%); }

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Odkomentowane pozwalało sprawdzać wprowadzanie nowych pierwiastków w WebStorms IDE
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="localhost"
+      xsi:schemaLocation="localhost uop_ready.xsd">
+	  -->
+    <elements>
+        <element family="nonmetal">
+            <number>1</number>
+            <symbol>H</symbol>
+            <name>Hydrogen</name>
+            <mass>1.00794</mass>
+        </element>
+        <element family="noble gas">
+            <number>2</number>
+            <symbol>He</symbol>
+            <name>Helium</name>
+            <mass>4.002602</mass>
+        </element>
+        <element family="alkali metal">
+            <number>3</number>
+            <symbol>Li</symbol>
+            <name>Lithium</name>
+            <mass>6.941</mass>
+        </element>
+        <element family="alkaline earth metal">
+            <number>4</number>
+            <symbol>Be</symbol>
+            <name>Beryllium</name>
+            <mass>9.012182</mass>
+        </element>
+        <element family="metalloid">
+            <number>5</number>
+            <symbol>B</symbol>
+            <name>Boron</name>
+            <mass>10.811</mass>
+        </element>
+        <element family="nonmetal">
+            <number>6</number>
+            <symbol>C</symbol>
+            <name>Carbon</name>
+            <mass>12.0107</mass>
+        </element>
+        <element family="nonmetal">
+            <number>7</number>
+            <symbol>N</symbol>
+            <name>Nitrogen</name>
+            <mass>14.0067</mass>
+        </element>
+        <element family="nonmetal">
+            <number>8</number>
+            <symbol>O</symbol>
+            <name>Oxygen</name>
+            <mass>15.9994</mass>
+        </element>
+        <element family="halogen">
+            <number>9</number>
+            <symbol>F</symbol>
+            <name>Fluorine</name>
+            <mass>18.9984032</mass>
+        </element>
+        <element family="noble gas">
+            <number>10</number>
+            <symbol>Ne</symbol>
+            <name>Neon</name>
+            <mass>20.1797</mass>
+        </element>
+        <element family="alkali metal">
+            <number>11</number>
+            <symbol>Na</symbol>
+            <name>Sodium</name>
+            <mass>22.98976928</mass>
+        </element>
+        <element family="alkaline earth metal">
+            <number>12</number>
+            <symbol>Mg</symbol>
+            <name>Magnesium</name>
+            <mass>24.305</mass>
+        </element>
+        <element family="metal">
+            <number>13</number>
+            <symbol>Al</symbol>
+            <name>Aluminum</name>
+            <mass>26.9815386</mass>
+        </element>
+        <element family="metalloid">
+            <number>14</number>
+            <symbol>Si</symbol>
+            <name>Silicon</name>
+            <mass>28.0855</mass>
+        </element>
+        <element family="nonmetal">
+            <number>15</number>
+            <symbol>P</symbol>
+            <name>Phosphorus</name>
+            <mass>30.973762</mass>
+        </element>
+        <element family="nonmetal">
+            <number>16</number>
+            <symbol>S</symbol>
+            <name>Sulfur</name>
+            <mass>32.065</mass>
+        </element>
+        <element family="halogen">
+            <number>17</number>
+            <symbol>Cl</symbol>
+            <name>Chlorine</name>
+            <mass>35.453</mass>
+        </element>
+        <element family="noble gas">
+            <number>18</number>
+            <symbol>Ar</symbol>
+            <name>Argon</name>
+            <mass>39.948</mass>
+        </element>
+        <element family="alkali metal">
+            <number>19</number>
+            <symbol>K</symbol>
+            <name>Potassium</name>
+            <mass>39.0983</mass>
+        </element>
+        <element family="alkaline earth metal">
+            <number>20</number>
+            <symbol>Ca</symbol>
+            <name>Calcium</name>
+            <mass>40.078</mass>
+        </element>
+        <element family="transition metal">
+            <number>21</number>
+            <symbol>Sc</symbol>
+            <name>Scandium</name>
+            <mass>44.955912</mass>
+        </element>
+        <element family="transition metal">
+            <number>22</number>
+            <symbol>Ti</symbol>
+            <name>Titanium</name>
+            <mass>47.867</mass>
+        </element>
+        <element family="transition metal">
+            <number>23</number>
+            <symbol>V</symbol>
+            <name>Vanadium</name>
+            <mass>50.9415</mass>
+        </element>
+        <element family="transition metal">
+            <number>24</number>
+            <symbol>Cr</symbol>
+            <name>Chromium</name>
+            <mass>51.9961</mass>
+        </element>
+        <element family="transition metal">
+            <number>25</number>
+            <symbol>Mn</symbol>
+            <name>Manganese</name>
+            <mass>54.938045</mass>
+        </element>
+        <element family="transition metal">
+            <number>26</number>
+            <symbol>Fe</symbol>
+            <name>Iron</name>
+            <mass>55.845</mass>
+        </element>
+        <element family="transition metal">
+            <number>27</number>
+            <symbol>Co</symbol>
+            <name>Cobalt</name>
+            <mass>58.933195</mass>
+        </element>
+        <element family="transition metal">
+            <number>28</number>
+            <symbol>Ni</symbol>
+            <name>Nickel</name>
+            <mass>58.6934</mass>
+        </element>
+        <element family="transition metal">
+            <number>29</number>
+            <symbol>Cu</symbol>
+            <name>Copper</name>
+            <mass>63.546</mass>
+        </element>
+        <element family="transition metal">
+            <number>30</number>
+            <symbol>Zn</symbol>
+            <name>Zinc</name>
+            <mass>65.38</mass>
+        </element>
+        <element family="metal">
+            <number>31</number>
+            <symbol>Ga</symbol>
+            <name>Gallium</name>
+            <mass>69.723</mass>
+        </element>
+        <element family="metalloid">
+            <number>32</number>
+            <symbol>Ge</symbol>
+            <name>Germanium</name>
+            <mass>72.64</mass>
+        </element>
+        <element family="metalloid">
+            <number>33</number>
+            <symbol>As</symbol>
+            <name>Arsenic</name>
+            <mass>74.9216</mass>
+        </element>
+        <element family="nonmetal">
+            <number>34</number>
+            <symbol>Se</symbol>
+            <name>Selenium</name>
+            <mass>78.96</mass>
+        </element>
+        <element family="halogen">
+            <number>35</number>
+            <symbol>Br</symbol>
+            <name>Bromine</name>
+            <mass>79.904</mass>
+        </element>
+        <element family="noble gas">
+            <number>36</number>
+            <symbol>Kr</symbol>
+            <name>Krypton</name>
+            <mass>83.798</mass>
+        </element>
+        <element family="alkali metal">
+            <number>37</number>
+            <symbol>Rb</symbol>
+            <name>Rubidium</name>
+            <mass>85.4678</mass>
+        </element>
+        <element family="alkaline earth metal">
+            <number>38</number>
+            <symbol>Sr</symbol>
+            <name>Strontium</name>
+            <mass>87.62</mass>
+        </element>
+        <element family="transition metal">
+            <number>39</number>
+            <symbol>Y</symbol>
+            <name>Yttrium</name>
+            <mass>88.90585</mass>
+        </element>
+        <element family="transition metal">
+            <number>40</number>
+            <symbol>Zr</symbol>
+            <name>Zirconium</name>
+            <mass>91.224</mass>
+        </element>
+        <element family="transition metal">
+            <number>41</number>
+            <symbol>Nb</symbol>
+            <name>Niobium</name>
+            <mass>92.90638</mass>
+        </element>
+        <element family="transition metal">
+            <number>42</number>
+            <symbol>Mo</symbol>
+            <name>Molybdenum</name>
+            <mass>95.96</mass>
+        </element>
+        <element family="transition metal">
+            <number>43</number>
+            <symbol>Tc</symbol>
+            <name>Technetium</name>
+            <mass>98</mass>
+        </element>
+        <element family="transition metal">
+            <number>44</number>
+            <symbol>Ru</symbol>
+            <name>Ruthenium</name>
+            <mass>101.07</mass>
+        </element>
+        <element family="transition metal">
+            <number>45</number>
+            <symbol>Rh</symbol>
+            <name>Rhodium</name>
+            <mass>102.9055</mass>
+        </element>
+        <element family="transition metal">
+            <number>46</number>
+            <symbol>Pd</symbol>
+            <name>Palladium</name>
+            <mass>106.42</mass>
+        </element>
+        <element family="transition metal">
+            <number>47</number>
+            <symbol>Ag</symbol>
+            <name>Silver</name>
+            <mass>107.8682</mass>
+        </element>
+        <element family="transition metal">
+            <number>48</number>
+            <symbol>Cd</symbol>
+            <name>Cadmium</name>
+            <mass>112.411</mass>
+        </element>
+        <element family="metal">
+            <number>49</number>
+            <symbol>In</symbol>
+            <name>Indium</name>
+            <mass>114.818</mass>
+        </element>
+        <element family="metal">
+            <number>50</number>
+            <symbol>Sn</symbol>
+            <name>Tin</name>
+            <mass>118.71</mass>
+        </element>
+        <element family="metalloid">
+            <number>51</number>
+            <symbol>Sb</symbol>
+            <name>Antimony</name>
+            <mass>121.76</mass>
+        </element>
+        <element family="metalloid">
+            <number>52</number>
+            <symbol>Te</symbol>
+            <name>Tellurium</name>
+            <mass>127.6</mass>
+        </element>
+        <element family="halogen">
+            <number>53</number>
+            <symbol>I</symbol>
+            <name>Iodine</name>
+            <mass>126.90447</mass>
+        </element>
+        <element family="noble gas">
+            <number>54</number>
+            <symbol>Xe</symbol>
+            <name>Xenon</name>
+            <mass>131.293</mass>
+        </element>
+        <element family="alkali metal">
+            <number>55</number>
+            <symbol>Cs</symbol>
+            <name>Cesium</name>
+            <mass>132.9054519</mass>
+        </element>
+        <element family="alkaline earth metal">
+            <number>56</number>
+            <symbol>Ba</symbol>
+            <name>Barium</name>
+            <mass>137.327</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>57</number>
+            <symbol>La</symbol>
+            <name>Lanthanum</name>
+            <mass>138.90547</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>58</number>
+            <symbol>Ce</symbol>
+            <name>Cerium</name>
+            <mass>140.116</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>59</number>
+            <symbol>Pr</symbol>
+            <name>Praseodymium</name>
+            <mass>140.90765</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>60</number>
+            <symbol>Nd</symbol>
+            <name>Neodymium</name>
+            <mass>144.242</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>61</number>
+            <symbol>Pm</symbol>
+            <name>Promethium</name>
+            <mass>145</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>62</number>
+            <symbol>Sm</symbol>
+            <name>Samarium</name>
+            <mass>150.36</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>63</number>
+            <symbol>Eu</symbol>
+            <name>Europium</name>
+            <mass>151.964</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>64</number>
+            <symbol>Gd</symbol>
+            <name>Gadolinium</name>
+            <mass>157.25</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>65</number>
+            <symbol>Tb</symbol>
+            <name>Terbium</name>
+            <mass>158.92535</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>66</number>
+            <symbol>Dy</symbol>
+            <name>Dysprosium</name>
+            <mass>162.5</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>67</number>
+            <symbol>Ho</symbol>
+            <name>Holmium</name>
+            <mass>164.93032</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>68</number>
+            <symbol>Er</symbol>
+            <name>Erbium</name>
+            <mass>167.259</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>69</number>
+            <symbol>Tm</symbol>
+            <name>Thulium</name>
+            <mass>168.93421</mass>
+        </element>
+        <element family="lanthanoid">
+            <number>70</number>
+            <symbol>Yb</symbol>
+            <name>Ytterbium</name>
+            <mass>173.054</mass>
+        </element>
+        <element family="transition metal">
+            <number>71</number>
+            <symbol>Lu</symbol>
+            <name>Lutetium</name>
+            <mass>174.9668</mass>
+        </element>
+        <element family="transition metal">
+            <number>72</number>
+            <symbol>Hf</symbol>
+            <name>Hafnium</name>
+            <mass>178.49</mass>
+        </element>
+        <element family="transition metal">
+            <number>73</number>
+            <symbol>Ta</symbol>
+            <name>Tantalum</name>
+            <mass>180.94788</mass>
+        </element>
+        <element family="transition metal">
+            <number>74</number>
+            <symbol>W</symbol>
+            <name>Tungsten</name>
+            <mass>183.84</mass>
+        </element>
+        <element family="transition metal">
+            <number>75</number>
+            <symbol>Re</symbol>
+            <name>Rhenium</name>
+            <mass>186.207</mass>
+        </element>
+        <element family="transition metal">
+            <number>76</number>
+            <symbol>Os</symbol>
+            <name>Osmium</name>
+            <mass>190.23</mass>
+        </element>
+        <element family="transition metal">
+            <number>77</number>
+            <symbol>Ir</symbol>
+            <name>Iridium</name>
+            <mass>192.217</mass>
+        </element>
+        <element family="transition metal">
+            <number>78</number>
+            <symbol>Pt</symbol>
+            <name>Platinum</name>
+            <mass>195.084</mass>
+        </element>
+        <element family="transition metal">
+            <number>79</number>
+            <symbol>Au</symbol>
+            <name>Gold</name>
+            <mass>196.966569</mass>
+        </element>
+        <element family="transition metal">
+            <number>80</number>
+            <symbol>Hg</symbol>
+            <name>Mercury</name>
+            <mass>200.59</mass>
+        </element>
+        <element family="metal">
+            <number>81</number>
+            <symbol>Tl</symbol>
+            <name>Thallium</name>
+            <mass>204.3833</mass>
+        </element>
+        <element family="metal">
+            <number>82</number>
+            <symbol>Pb</symbol>
+            <name>Lead</name>
+            <mass>207.2</mass>
+        </element>
+        <element family="metal">
+            <number>83</number>
+            <symbol>Bi</symbol>
+            <name>Bismuth</name>
+            <mass>208.9804</mass>
+        </element>
+        <element family="metalloid">
+            <number>84</number>
+            <symbol>Po</symbol>
+            <name>Polonium</name>
+            <mass>209</mass>
+        </element>
+        <element family="halogen">
+            <number>85</number>
+            <symbol>At</symbol>
+            <name>Astatine</name>
+            <mass>210</mass>
+        </element>
+        <element family="noble gas">
+            <number>86</number>
+            <symbol>Rn</symbol>
+            <name>Radon</name>
+            <mass>222</mass>
+        </element>
+        <element family="alkali metal">
+            <number>87</number>
+            <symbol>Fr</symbol>
+            <name>Francium</name>
+            <mass>223</mass>
+        </element>
+        <element family="alkaline earth metal">
+            <number>88</number>
+            <symbol>Ra</symbol>
+            <name>Radium</name>
+            <mass>226</mass>
+        </element>
+        <element family="actinoid">
+            <number>89</number>
+            <symbol>Ac</symbol>
+            <name>Actinium</name>
+            <mass>227</mass>
+        </element>
+        <element family="actinoid">
+            <number>90</number>
+            <symbol>Th</symbol>
+            <name>Thorium</name>
+            <mass>232.03806</mass>
+        </element>
+        <element family="actinoid">
+            <number>91</number>
+            <symbol>Pa</symbol>
+            <name>Protactinium</name>
+            <mass>231.03588</mass>
+        </element>
+        <element family="actinoid">
+            <number>92</number>
+            <symbol>U</symbol>
+            <name>Uranium</name>
+            <mass>238.02891</mass>
+        </element>
+        <element family="actinoid">
+            <number>93</number>
+            <symbol>Np</symbol>
+            <name>Neptunium</name>
+            <mass>237</mass>
+        </element>
+        <element family="actinoid">
+            <number>94</number>
+            <symbol>Pu</symbol>
+            <name>Plutonium</name>
+            <mass>244</mass>
+        </element>
+        <element family="actinoid">
+            <number>95</number>
+            <symbol>Am</symbol>
+            <name>Americium</name>
+            <mass>243</mass>
+        </element>
+        <element family="actinoid">
+            <number>96</number>
+            <symbol>Cm</symbol>
+            <name>Curium</name>
+            <mass>247</mass>
+        </element>
+        <element family="actinoid">
+            <number>97</number>
+            <symbol>Bk</symbol>
+            <name>Berkelium</name>
+            <mass>247</mass>
+        </element>
+        <element family="actinoid">
+            <number>98</number>
+            <symbol>Cf</symbol>
+            <name>Californium</name>
+            <mass>251</mass>
+        </element>
+        <element family="actinoid">
+            <number>99</number>
+            <symbol>Es</symbol>
+            <name>Einsteinium</name>
+            <mass>252</mass>
+        </element>
+        <element family="actinoid">
+            <number>100</number>
+            <symbol>Fm</symbol>
+            <name>Fermium</name>
+            <mass>257</mass>
+        </element>
+        <element family="actinoid">
+            <number>101</number>
+            <symbol>Md</symbol>
+            <name>Mendelevium</name>
+            <mass>258</mass>
+        </element>
+        <element family="actinoid">
+            <number>102</number>
+            <symbol>No</symbol>
+            <name>Nobelium</name>
+            <mass>259</mass>
+        </element>
+        <element family="transition metal">
+            <number>103</number>
+            <symbol>Lr</symbol>
+            <name>Lawrencium</name>
+            <mass>262</mass>
+        </element>
+        <element family="transition metal">
+            <number>104</number>
+            <symbol>Rf</symbol>
+            <name>Rutherfordium</name>
+            <mass>267</mass>
+        </element>
+        <element family="transition metal">
+            <number>105</number>
+            <symbol>Db</symbol>
+            <name>Dubnium</name>
+            <mass>268</mass>
+        </element>
+        <element family="transition metal">
+            <number>106</number>
+            <symbol>Sg</symbol>
+            <name>Seaborgium</name>
+            <mass>271</mass>
+        </element>
+        <element family="transition metal">
+            <number>107</number>
+            <symbol>Bh</symbol>
+            <name>Bohrium</name>
+            <mass>272</mass>
+        </element>
+        <element family="transition metal">
+            <number>108</number>
+            <symbol>Hs</symbol>
+            <name>Hassium</name>
+            <mass>270</mass>
+        </element>
+        <element family="transition metal">
+            <number>109</number>
+            <symbol>Mt</symbol>
+            <name>Meitnerium</name>
+            <mass>276</mass>
+        </element>
+        <element family="transition metal">
+            <number>110</number>
+            <symbol>Ds</symbol>
+            <name>Darmstadtium</name>
+            <mass>281</mass>
+        </element>
+        <element family="transition metal">
+            <number>111</number>
+            <symbol>Rg</symbol>
+            <name>Roentgenium</name>
+            <mass>280</mass>
+        </element>
+        <element family="transition metal">
+            <number>112</number>
+            <symbol>Cn</symbol>
+            <name>Copernicium</name>
+            <mass>285</mass>
+        </element>
+        <element family="metal">
+            <number>113</number>
+            <symbol>Uut</symbol>
+            <name>Ununtrium</name>
+            <mass>284</mass>
+        </element>
+        <element family="metal">
+            <number>114</number>
+            <symbol>Uuq</symbol>
+            <name>Ununquadium</name>
+            <mass>289</mass>
+        </element>
+        <element family="halogen">
+            <number>115</number>
+            <symbol>Uup</symbol>
+            <name>Ununpentium</name>
+            <mass>288</mass>
+        </element>
+        <element family="noble gas">
+            <number>116</number>
+            <symbol>Uuh</symbol>
+            <name>Ununhexium</name>
+            <mass>293</mass>
+        </element>
+        <element family="alkali metal">
+            <number>117</number>
+            <symbol>Uus</symbol>
+            <name>Ununseptium</name>
+            <mass>294</mass>
+        </element>
+        <element family="alkaline earth metal">
+            <number>118</number>
+            <symbol>Uuo</symbol>
+            <name>Ununoctium</name>
+            <mass>294</mass>
+        </element>
+    </elements>
+<!-- jak wyżej
+</note>
+-->

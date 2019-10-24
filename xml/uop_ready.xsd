@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="localhost" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="note" type="loc:noteType" xmlns:loc="localhost"/>
+  <xs:complexType name="elementType">
+    <xs:sequence>
+      <xs:element type="xs:positiveInteger" name="number"/>
+      <xs:element name="symbol">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="3"/>
+            <xs:pattern value="[A-Z][a-z]*"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="2"/>
+            <xs:pattern value="[A-Z][a-z]*"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:float" name="mass"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="family"/>
+  </xs:complexType>
+  <xs:complexType name="elementsType">
+    <xs:sequence>
+      <xs:element type="loc:elementType" name="element" maxOccurs="unbounded" minOccurs="0" xmlns:loc="localhost"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="noteType">
+    <xs:sequence>
+      <xs:element type="loc:elementsType" name="elements" xmlns:loc="localhost"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
